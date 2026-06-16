@@ -1,0 +1,5 @@
+- [ ] Finish up fork of soniccc
+- [ ] Set up slack channel
+- [ ] Write marketting copy
+- [ ] Reread the website clean
+- [ ] Publish!
