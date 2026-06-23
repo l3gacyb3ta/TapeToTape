@@ -283,6 +283,58 @@
 
 <body>
 
+<div class="banner" id="banner">
+    <h1>This Hack Club event has ended! You can see current programs at <a style="color: #5bc0de; text-decoration: none;" href="ysws.hackclub.com"> ysws.hackclub.com </a> </h1>
+    <button class="close-btn" onclick="closeBanner()">×</button>
+</div>
+
+<style>
+    .banner {
+        background-color: #ec3750;
+        color: rgb(255, 255, 255);
+        padding: 20px;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .banner h1 {
+        font-size: 15px;
+        margin: 0;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .close-btn {
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        background: none;
+        border: none;
+        color: #8492a6;
+        font-size: 28px;
+        cursor: pointer;
+    }
+
+    .close-btn:hover {
+        opacity: 0.7;
+    }
+</style>
+
+<script>
+    function closeBanner() {
+        document.getElementById('banner').style.display = 'none';
+    }
+</script>
+
+
     <div class="top-stripe"></div>
 
     <div class="container">
